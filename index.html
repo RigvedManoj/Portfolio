@@ -38,9 +38,11 @@
               <a href="./index.html#about" class="header__link">About </a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projects
-              </a>
+              <a href="./index.html#publications" class="header__link"> Publications </a>
+            </li>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link"> Projects </a>
             </li>
             <li class="header__link-wrapper">
               <a href="./index.html#contact" class="header__link"> Contact </a>
@@ -72,6 +74,10 @@
             </li>
 
             <li class="header__sm-menu-link">
+              <a href="./index.html#publications"> Publications </a>
+            </li>
+
+            <li class="header__sm-menu-link">
               <a href="./index.html#projects"> Projects </a>
             </li>
 
@@ -87,7 +93,7 @@
         <h1 class="heading-primary">Hey, My name is Rigved Manoj</h1>
         <div class="home-hero__info">
           <p class="text-primary">
-            I am an UMass Amherst CS grad student with 3 years in data engineering. Passionate about tech innovation and AI's transformative role.
+            I am an UMass Amherst CS grad student with 3 years of experience in data engineering. Passionate about tech innovation and AI's transformative role.
           </p>
         </div>
         <div class="home-hero__cta">
@@ -110,6 +116,24 @@
               src="./assets/png/github-ico.png"
               alt="icon"
               class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://leetcode.com/RigvedManoj" class="home-hero__social-icon-link">
+            <img
+                    src="./assets/png/leetcode.webp"
+                    alt="icon"
+                    class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="https://scholar.google.com/citations?user=CIOys7IAAAAJ&hl=en" class="home-hero__social-icon-link">
+            <img
+                    src="./assets/jpeg/GS.jpg"
+                    alt="icon"
+                    class="home-hero__social-icon"
             />
           </a>
         </div>
@@ -138,6 +162,7 @@
               <div class="skills__skill">Hive</div>
               <div class="skills__skill">Scala</div>
               <div class="skills__skill">SQL</div>
+              <div class="skills__skill">Data Analytics</div>
               <div class="skills__skill">Machine Learning</div>
               <div class="skills__skill">Computer Vision</div>
               <div class="skills__skill">Natural Language Processing</div>
@@ -147,17 +172,76 @@
               <div class="skills__skill">JavaScript</div>
               <div class="skills__skill">React</div>
               <div class="skills__skill">Django</div>
-              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">Git</div>
+              <div class="skills__skill">Agile</div>
             </div>
           </div>
         </div>
     </section>
-    <section id="projects" class="projects sec-pad">
+    <section id="publications" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Publications</span>
+          <span class="heading-sec__sub">
+            Computer Vision Research Papers I have published:
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                      src="./assets/png/ResearchPaper.png"
+                      alt="Software Screenshot"
+                      class="projects__row-img"
+                      loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">A novel multiscale and multipath convolutional neural network based age-related macular degeneration detection using OCT images</h3>
+              <p class="projects__row-content-desc">
+                Developed a multiscale CNN with 6 convolutional layers to extract and integrate local and global features, employing random
+                forest classification for high-accuracy outcomes exceeding 96% across diverse datasets.
+              </p>
+              <h1 class="projects__row-content-desc">Published by Elsevier in Computer Methods and Programs in Biomedicine Journal on 2021/9/1</h1>
+              <a
+                      href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CIOys7IAAAAJ&citation_for_view=CIOys7IAAAAJ:zYLM7Y9cAGgC"
+                      class="btn btn--med btn--theme dynamicBgClr"
+                      target="_blank"
+              >Paper</a>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                      src="./assets/png/ResearchPaper.png"
+                      alt="Software Screenshot"
+                      class="projects__row-img"
+                      loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">RPE layer detection and baseline estimation using statistical methods and randomization for classification of AMD from retinal OCT</h3>
+              <p class="projects__row-content-desc">
+                Innovated a novel approach utilizing contrast enhancement and pixel grouping to extract RPE layer and baseline from retinal
+                OCT images for AMD diagnosis, achieving a 96.66% accuracy on a dataset of 2130 images.
+              </p>
+              <h1 class="projects__row-content-desc">Published by Elsevier in Computer Methods and Programs in Biomedicine Journal on 2021/3/1</h1>
+              <a
+                      href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=CIOys7IAAAAJ&citation_for_view=CIOys7IAAAAJ:d1gkVwhDpl0C"
+                      class="btn btn--med btn--theme dynamicBgClr"
+                      target="_blank"
+              >Paper</a>
+            </div>
+          </div>
+      </div>
+    </section>
+    <section id="projects" class="about sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-bg">
           <span class="heading-sec__main">Projects</span>
           <span class="heading-sec__sub">
-            Some of the Projects I have done are listed below:
+            A few of my Projects:
           </span>
         </h2>
 
@@ -177,6 +261,11 @@
                 Led a 5-person team in developing a Python and Tkinter-based chess GUI with reverse rules, incorporating the Min Max algorithm,
                 resulting in an AI opponent achieving an 80% win rate.
               </p>
+              <a
+                      href="https://github.com/RigvedManoj/ReverseChess"
+                      class="btn btn--med btn--theme dynamicBgClr"
+                      target="_blank"
+              >Github</a>
             </div>
           </div>
           <div class="projects__row">
@@ -193,6 +282,11 @@
               <p class="projects__row-content-desc">
                 Designed a React and Django-based full-stack web app, employing RESTful APIs for a single-click Job-Board platform.
               </p>
+              <a
+                      href="https://github.com/RigvedManoj/InstaHire"
+                      class="btn btn--med btn--theme dynamicBgClr"
+                      target="_blank"
+              >Github</a>
             </div>
           </div>
           <div class="projects__row">
@@ -209,6 +303,11 @@
               <p class="projects__row-content-desc">
                 Implemented the Prioritized Sweeping algorithm in Python for Blackjack, resulting in a 70% win rate across 100 gameplays.
               </p>
+              <a
+                      href="https://github.com/RigvedManoj/RL_Project"
+                      class="btn btn--med btn--theme dynamicBgClr"
+                      target="_blank"
+              >Github</a>
             </div>
           </div>
         </div>
@@ -265,18 +364,6 @@
         </div>
       </div>
     </section>
-    <footer class="main-footer">
-      <div class="main-container">
-        <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
-        <div class="main-footer__lower">
-          &copy; Copyright 2021. Made by
-          <a rel="noreferrer" target="_blank" href="https://rammaheshwari.com"
-            >Ram Maheshwari</a
-          >
-        </div>
-      </div>
-    </footer>
-
     <script src="./index.js"></script>
   </body>
 </html>

@@ -152,7 +152,7 @@
     &-img {
       width: 100%;
       display: block;
-      object-fit: cover;
+      object-fit: contain;
     }
     &-content {
       padding: 2rem 0;
