@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Dopefolio</title>
+    <title>Rigved Manoj Portfolio</title>
     <meta name="description" content="Portfolio Template for Developer" />
 
     <link rel="stylesheet" href="css/style.css" />
@@ -36,6 +36,11 @@
             </li>
             <li class="header__link-wrapper">
               <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
             </li>
             <li class="header__link-wrapper">
               <a href="./index.html#contact" class="header__link"> Contact </a>
@@ -86,7 +91,7 @@
           </p>
         </div>
         <div class="home-hero__cta">
-          <a href="./#projects" class="btn btn--bg">Projects</a>
+          <a href="./assets/pdfs/Rigved_Manoj_Resume.pdf" target="_blank" class="btn btn--bg">Resume</a>
         </div>
       </div>
       <div class="home-hero__socials">
@@ -146,6 +151,67 @@
             </div>
           </div>
         </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            Some of the Projects I have done are listed below:
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                      src="./assets/png/chess.png"
+                      alt="Software Screenshot"
+                      class="projects__row-img"
+                      loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Reverse Chess</h3>
+              <p class="projects__row-content-desc">
+                Led a 5-person team in developing a Python and Tkinter-based chess GUI with reverse rules, incorporating the Min Max algorithm,
+                resulting in an AI opponent achieving an 80% win rate.
+              </p>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                      src="./assets/png/job_board.png"
+                      alt="Software Screenshot"
+                      class="projects__row-img"
+                      loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">InstaHire</h3>
+              <p class="projects__row-content-desc">
+                Designed a React and Django-based full-stack web app, employing RESTful APIs for a single-click Job-Board platform.
+              </p>
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                      src="./assets/png/Blacjack.png"
+                      alt="Software Screenshot"
+                      class="projects__row-img"
+                      loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Prioritized Sweeping in BlackJack</h3>
+              <p class="projects__row-content-desc">
+                Implemented the Prioritized Sweeping algorithm in Python for Blackjack, resulting in a 70% win rate across 100 gameplays.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section id="contact" class="contact sec-pad dynamicBg">
@@ -157,7 +223,7 @@
           </span>
         </h2>
         <div class="contact__form-container">
-          <form action="#" class="contact__form">
+          <form action="https://formspree.io/f/xpzvpgge" method="POST" class="contact__form">
             <div class="contact__form-field">
               <label class="contact__form-label" for="name">Name</label>
               <input
@@ -201,58 +267,6 @@
     </section>
     <footer class="main-footer">
       <div class="main-container">
-        <div class="main-footer__upper">
-          <div class="main-footer__row main-footer__row-1">
-            <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
-            </h2>
-            <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/linkedin-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/github-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/twitter-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon main-footer__icon--mr-none"
-                  src="./assets/png/insta-ico.png"
-                  alt="icon"
-                />
-              </a>
-            </div>
-          </div>
-          <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
-            <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
-            </p>
-          </div>
-        </div>
-
         <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
         <div class="main-footer__lower">
           &copy; Copyright 2021. Made by
